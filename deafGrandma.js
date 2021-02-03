@@ -1,8 +1,4 @@
-
-
-
-  //let output = 'Grandma is listeneing...'
-  let counter = 0;
+let counter = 0;
   function deafGrandma(input){
       if (input === ''){
         output = 'WHAT?!';
@@ -18,7 +14,6 @@
         output = 'NO, NOT SINCE 1946!';
       }
       console.log(output);
-      
     };
     
 deafGrandma('HI GRANDMA');
