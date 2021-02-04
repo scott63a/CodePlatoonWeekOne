@@ -1,6 +1,6 @@
 let list = ['b','a','n','a','n','a','s']
 let answer = [];
-function something(array, letter){
+function linearSearch(array, letter){
   for(let i = 0; i < array.length; i++){
     if(array[i] === letter)
       answer.push(i);  
@@ -8,4 +8,4 @@ function something(array, letter){
 console.log(answer);
 }
 
-something(list, 'a')
+linearSearch(list, 'a')
